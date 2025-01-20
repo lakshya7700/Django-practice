@@ -1,0 +1,15 @@
+Django based on MVT 
+
+MVT is a software design pattern.
+
+M->Model
+Model acts as interface of data that we store/take in our database
+
+V->View
+The view is the user interface- what you see in your browser when you render a website
+
+T->Template
+A template consists of static parts of desired HTML file as well as some special syntax describing how 
+dynamic content will be inserted.
+
+
