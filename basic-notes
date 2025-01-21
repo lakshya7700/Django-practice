@@ -43,4 +43,19 @@ Available subcommands:
     test
     testserver
 
+## To create new project in django
+-> django-admin startproject <Project name>
+
+## To run our project
+-> python manage.py runserver
+this manage.py is in our project directory mys
+
+Default port djnago project is run on: 8000
+
+Port 8000 is commonly used, and other frameworks or applications might also be configured to run on this port.
+If two frameworks attempt to use the same port simultaneously, only one will run successfully, while the other will fail.
+
+# To run on different port
+-> python manage.py runserver <any port number>
+
 
