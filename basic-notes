@@ -58,4 +58,24 @@ If two frameworks attempt to use the same port simultaneously, only one will run
 # To run on different port
 -> python manage.py runserver <any port number>
 
+Django use sqlite as default database.
+
+To create our HTML file, we have to create Templates folder and in that we will create HTML file.
+
+We also have to crete static folder which will have all static files.
+For eg: js, css, fonts, images file etc...
+
+Then we create media folder which will have all the dynamic files.
+
+## inside our app folder: /mys/settings.py
+this is an important file, all the settimgs related to project is present in this only.
+if we want to use different db, other than sqlite, we do that there.
+We have to share the path of all template files, static files in this only.
+
+## inside our app folder: /mys/urls.py
+In this we add all our urls of our project. 
+For eg: We created home page, menu page whatever as per our project requirements. We add it to this file.
+
+## views.py
+Another file is created, views.py which has all the functions of the urls. urls.py and views.py are connected.
 
